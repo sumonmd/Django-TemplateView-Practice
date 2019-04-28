@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<nav style="display:flex; justify-content:space-evenly">
+    <a href="/">Home</a>|<a href="{% url 'about' %}">About</a>|<a href="#">Portfolio</a>
+</nav>
+    {% block body %}
+    {% endblock body %}
+</body>
+</html>
